@@ -1,7 +1,7 @@
 import express from 'express';
 const server = express();
 
-server.get('/graphql', (req,res) => {
+server.get('/', (req,res) => {
 	res.send('<html> <head> </head> <body> <h1> Hello Fatma </h1> </body> </html>')
 });
 
